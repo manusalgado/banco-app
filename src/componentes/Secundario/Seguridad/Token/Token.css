@@ -1,0 +1,111 @@
+.Token .Token__title {
+  font-size: 14px;
+  padding-top: 16px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  background: #f7f8fa;
+  color: #98999b;
+}
+
+.Token-items {
+  display: flex;
+  height: 100%;
+  padding: 15px 20px;
+}
+
+.Token-son {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Token-son .Token-son__text {
+  color: #a3a4a6;
+  font-size: 14px;
+  padding-left: 21px;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Token-icon {
+  min-width: 30px;
+}
+
+.Token-img {
+  width: 35px;
+}
+
+.Token-img2 {
+  width: 35px;
+}
+
+.Token-img3 {
+  width: 35px;
+}
+
+.Token-line {
+  margin: 0;
+  margin-left: 71px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #7cd269;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #7cd269;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  width: 44px;
+  height: 26px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

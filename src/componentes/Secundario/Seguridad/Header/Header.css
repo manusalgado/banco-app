@@ -1,0 +1,62 @@
+.security-header {
+  background: rgba(65, 124, 228, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(65, 124, 228, 1) 0%,
+    rgba(19, 74, 167, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(65, 124, 228, 1)),
+    color-stop(100%, rgba(19, 74, 167, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(65, 124, 228, 1) 0%,
+    rgba(19, 74, 167, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(65, 124, 228, 1) 0%,
+    rgba(19, 74, 167, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(65, 124, 228, 1) 0%,
+    rgba(19, 74, 167, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(65, 124, 228, 1) 0%,
+    rgba(19, 74, 167, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#417ce4', endColorstr='#134aa7', GradientType=1 );
+
+  display: flex;
+  padding: 23px;
+  height: 100%;
+}
+
+.security-arrow {
+  display: flex;
+  justify-content: start;
+}
+
+.security-icon {
+  height: 35px;
+}
+
+.security-son {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.security-son__text {
+  color: #fafbff;
+  font-size: 17px;
+  padding-left: 80px;
+  padding-top: 5px;
+  font-weight: 600;
+}

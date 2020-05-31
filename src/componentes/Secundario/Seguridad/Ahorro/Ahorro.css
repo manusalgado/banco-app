@@ -1,0 +1,29 @@
+.saving__title {
+  font-size: 14px;
+  padding-top: 16px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  background: #f7f8fa;
+  color: #98999b;
+}
+
+.saving-items {
+  display: flex;
+  height: 100%;
+  padding: 12px 20px;
+}
+
+.saving-items__input {
+  margin-left: 0;
+}
+.saving-items__label {
+  margin-left: 25px;
+}
+
+.saving-items__text {
+  color: #a3a4a6;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
