@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/app-banco/static/css/main.ef80ec08.chunk.css",
+    "main.js": "/app-banco/static/js/main.7c316ec0.chunk.js",
+    "main.js.map": "/app-banco/static/js/main.7c316ec0.chunk.js.map",
+    "runtime-main.js": "/app-banco/static/js/runtime-main.35ec3c24.js",
+    "runtime-main.js.map": "/app-banco/static/js/runtime-main.35ec3c24.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/app-banco/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.2f5ae868.chunk.js": "/app-banco/static/js/2.2f5ae868.chunk.js",
+    "static/js/2.2f5ae868.chunk.js.map": "/app-banco/static/js/2.2f5ae868.chunk.js.map",
+    "index.html": "/app-banco/index.html",
+    "precache-manifest.1ca311a32925590849975e16bdd90458.js": "/app-banco/precache-manifest.1ca311a32925590849975e16bdd90458.js",
+    "service-worker.js": "/app-banco/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/app-banco/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.ef80ec08.chunk.css.map": "/app-banco/static/css/main.ef80ec08.chunk.css.map",
+    "static/js/2.2f5ae868.chunk.js.LICENSE.txt": "/app-banco/static/js/2.2f5ae868.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35ec3c24.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.2f5ae868.chunk.js",
+    "static/css/main.ef80ec08.chunk.css",
+    "static/js/main.7c316ec0.chunk.js"
+  ]
+}
