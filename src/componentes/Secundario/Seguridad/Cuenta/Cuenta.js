@@ -12,11 +12,7 @@ class Cuenta extends React.Component {
         <div>
           <div className="account-items">
             <div className="account-icon">
-              <img
-                src="/img/iconAccount1.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img account-img"
-              />
+              <img src="/img/iconAccount1.jpg" alt="websitelogo" className="bd-placeholder-img account-img" />
             </div>
 
             <div className="account-son">
@@ -25,7 +21,7 @@ class Cuenta extends React.Component {
 
             <div className="switch">
               <input type="checkbox" id="Touch" />
-              <label className="slider round" for="Touch"></label>
+              <label className="slider round" htmlFor="Touch"></label>
             </div>
           </div>
 
@@ -33,11 +29,7 @@ class Cuenta extends React.Component {
 
           <div className="account-items">
             <div className="account-icon">
-              <img
-                src="/img/iconAccount2.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img account-img2"
-              />
+              <img src="/img/iconAccount2.jpg" alt="websitelogo" className="bd-placeholder-img account-img2" />
             </div>
 
             <div className="account-son">
@@ -47,11 +39,7 @@ class Cuenta extends React.Component {
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
 
@@ -59,11 +47,7 @@ class Cuenta extends React.Component {
 
           <div className="account-items">
             <div className="account-icon">
-              <img
-                src="/img/iconAccount3.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img account-img3"
-              />
+              <img src="/img/iconAccount3.jpg" alt="websitelogo" className="bd-placeholder-img account-img3" />
             </div>
 
             <div className="account-son">
@@ -73,11 +57,7 @@ class Cuenta extends React.Component {
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
         </div>

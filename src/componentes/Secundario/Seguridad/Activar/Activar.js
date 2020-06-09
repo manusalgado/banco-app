@@ -34,7 +34,7 @@ class Activar extends React.Component {
                 type="checkbox"
                 id="Touch"
               />
-              <label className="slider round" for="Touch"></label>
+              <label className="slider round" htmlFor="Touch"></label>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ class Activar extends React.Component {
               aria-multiselectable="true"
             >
               <div className="card">
-                <div class="card-header" role="tab" id="headingTwo1">
+                <div className="card-header" role="tab" id="headingTwo1">
                   <a
                     className="collapsed active-link"
                     data-toggle="collapse"
@@ -64,7 +64,7 @@ class Activar extends React.Component {
                     aria-expanded="false"
                     aria-controls="collapseTwo1"
                   >
-                    <h5 class="mb-0 son-title">Bloqueo por Mora </h5>
+                    <h5 className="mb-0 son-title">Bloqueo por Mora </h5>
                   </a>
                 </div>
 
@@ -344,7 +344,7 @@ class Activar extends React.Component {
                       <li>
                         Se realiza cuando tu tarjeta presenta transacciones que
                         no has realizado. Este bloqueo es asignado por tu
-                        Oficinas o llamando a traves de la servilinea a
+                        oficinas o llamando a traves de la servilinea a
                         solicitud tuya.
                       </li>
                     </ul>

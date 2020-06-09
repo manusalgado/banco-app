@@ -7,11 +7,7 @@ class Header extends React.Component {
       <div className="container--fluid">
         <div className="header">
           <div className="header-icon">
-            <img
-              src="/img/iconHome1.jpg"
-              alt="websitelogo"
-              className="bd-placeholder-img header-icon__son"
-            />
+            <img src="/img/iconHome1.jpg" alt="websitelogo" className="bd-placeholder-img header-icon__son" />
           </div>
 
           <div className="header-son">
@@ -19,11 +15,7 @@ class Header extends React.Component {
           </div>
 
           <div className="header-keys">
-            <img
-              src="/img/iconHome2.jpg"
-              alt="websitelogo"
-              className="bd-placeholder-img header-keys__icon"
-            />
+            <img src="/img/iconHome2.jpg" alt="websitelogo" className="bd-placeholder-img header-keys__icon" />
           </div>
         </div>
 

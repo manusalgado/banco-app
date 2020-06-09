@@ -12,11 +12,7 @@ class Token extends React.Component {
         <div>
           <div className="Token-items">
             <div className="Token-icon">
-              <img
-                src="/img/iconToken1.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img Token-img"
-              />
+              <img src="/img/iconToken1.jpg" alt="websitelogo" className="bd-placeholder-img Token-img" />
             </div>
 
             <div className="Token-son">
@@ -25,7 +21,7 @@ class Token extends React.Component {
 
             <div className="switch">
               <input type="checkbox" id="Home" />
-              <label className="slider round" for="Home"></label>
+              <label className="slider round" htmlFor="Home"></label>
             </div>
           </div>
 
@@ -33,11 +29,7 @@ class Token extends React.Component {
 
           <div className="Token-items">
             <div className="Token-icon">
-              <img
-                src="/img/iconToken2.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img Token-img2"
-              />
+              <img src="/img/iconToken2.jpg" alt="websitelogo" className="bd-placeholder-img Token-img2" />
             </div>
 
             <div className="Token-son">
@@ -45,11 +37,7 @@ class Token extends React.Component {
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
 

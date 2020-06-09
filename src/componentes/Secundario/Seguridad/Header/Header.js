@@ -21,7 +21,7 @@ function Header(props) {
         </div>
 
         <div>
-          <img className="bd-placeholder-img mr-3" />
+          <img className="bd-placeholder-img mr-3" alt="" />
         </div>
       </div>
     </div>

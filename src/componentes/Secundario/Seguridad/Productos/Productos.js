@@ -12,11 +12,7 @@ class Productos extends React.Component {
         <div>
           <div className="products-items">
             <div>
-              <img
-                src="/img/iconProducts1.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img products-icon"
-              />
+              <img src="/img/iconProducts1.jpg" alt="websitelogo" className="bd-placeholder-img products-icon" />
             </div>
 
             <div className="products-son">
@@ -26,11 +22,7 @@ class Productos extends React.Component {
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
 
@@ -38,11 +30,7 @@ class Productos extends React.Component {
 
           <div className="products-items">
             <div>
-              <img
-                src="/img/iconProducts2.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img products-icon2"
-              />
+              <img src="/img/iconProducts2.jpg" alt="websitelogo" className="bd-placeholder-img products-icon2" />
             </div>
 
             <div className="products-son">
@@ -52,65 +40,51 @@ class Productos extends React.Component {
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
 
           <hr className="products-line" />
 
+
+          <Link to="/activar">
           <div className="products-items">
             <div>
-              <img
-                src="/img/iconProducts1.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img products-icon"
-              />
+              <img src="/img/iconProducts1.jpg" alt="websitelogo" className="bd-placeholder-img products-icon" />
             </div>
 
             <div className="products-son">
               <h5 className="mt-0 mb-1 products-son__text">
-                <Link to="/activar">Activar banda</Link>
+                Activar banda
               </h5>
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
+          </Link>
 
           <hr className="products-line" />
 
+
+          <Link to="/ahorro">
           <div className="products-items">
             <div>
-              <img
-                src="/img/iconProducts1.jpg"
-                alt="websitelogo"
-                className="bd-placeholder-img products-icon"
-              />
+              <img src="/img/iconProducts1.jpg" alt="websitelogo" className="bd-placeholder-img products-icon" />
             </div>
 
             <div className="products-son">
               <h5 className="mt-0 mb-1 products-son__text">
-                <Link to="/ahorro">Activar cuenta de ahorro</Link>
+                Activar cuenta de ahorro
               </h5>
             </div>
 
             <div className="flecha">
-              <img
-                src="/img/arrow-right.svg"
-                alt="websitelogo"
-                className="bd-placeholder-img"
-              />
+              <img src="/img/arrow-right.svg" alt="websitelogo" className="bd-placeholder-img" />
             </div>
           </div>
+          </Link>
 
           <hr className="products-line" />
         </div>

@@ -6,7 +6,7 @@ class Menu extends React.Component {
   render() {  
     return (
         <div>
-        <Link to="/seguridad"><img src="/img/imgMenu.jpg" useMap="#mapa1" className="imagemenu"/></Link>
+        <Link to="/seguridad"><img src="/img/imgMenu.jpg" useMap="#mapa1" className="imagemenu" alt=""/></Link>
         </div>
        
     )

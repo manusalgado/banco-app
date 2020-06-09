@@ -6,12 +6,10 @@
 }
 .header-icon {
   display: flex;
-  justify-content: start;
 }
 
 .header-icon__son {
   width: 59px;
-  height: 59px;
 }
 
 .header-son {
@@ -28,7 +26,6 @@
 
 .header-keys {
   display: flex;
-  justify-content: start;
   margin-top: 2px;
 }
 
